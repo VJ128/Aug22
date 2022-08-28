@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testngdemo.TestingListeners">
+        <methods>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.qa.testngdemo.TestingListeners -->
+      <class name="com.qa.testngdemo.SoftAssertHardAssert">
+        <methods>
+          <include name="HardAssert"/>
+        </methods>
+      </class> <!-- com.qa.testngdemo.SoftAssertHardAssert -->
+      <class name="com.qa.testngdemo.TimeOutInvocationCount">
+        <methods>
+          <include name="timeOut"/>
+        </methods>
+      </class> <!-- com.qa.testngdemo.TimeOutInvocationCount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
